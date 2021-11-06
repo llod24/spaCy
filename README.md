@@ -10,7 +10,7 @@ spaCy는 [사전에 학습된 파이프라인](https://spacy.io/models)과 함�
 생산 준비가 된 [**사전에 학습된 시스템**](https://spacy.io/usage/training)과 쉬운 모델 패키지, 배포 및 워크 플로우 관리를 위한 최첨단 속도와 **신경망 모델**이 특징입니다. 
 spaCy는 MIT 라이선스에 따라 출시된 상용 오픈 소스 소프트웨어입니다.
 
-💫 **3.0 버젼 출시!**
+💫 **3.2 버젼 출시!**
 [여기서 릴리스 노트를 확인하세요](https://github.com/explosion/spaCy/releases)
 
 [![Azure 파이프라인](https://img.shields.io/azure-devops/build/explosion-ai/public/8/master.svg?logo=azure-pipelines&style=flat-square&label=build)](https://dev.azure.com/explosion-ai/public/_build?definitionId=8)
@@ -41,12 +41,12 @@ spaCy는 MIT 라이선스에 따라 출시된 상용 오픈 소스 소프트웨�
 | 💝 **[기여]**        | spaCy 프로젝트와 코드 베이스에 기여하는 방법.          |
 
 [spacy 101]: https://spacy.io/usage/spacy-101
-[new in v3.0]: https://spacy.io/usage/v3
+[새로워진 3.0 버젼]: https://spacy.io/usage/v3
 [사용법 가이드]: https://spacy.io/usage/
 [api 참조]: https://spacy.io/api/
 [모델]: https://spacy.io/models
 [universe]: https://spacy.io/universe
-[videos]: https://www.youtube.com/c/ExplosionAI
+[비디오]: https://www.youtube.com/c/ExplosionAI
 [온라인 강좌]: https://course.spacy.io
 [프로젝트 템플릿]: https://github.com/explosion/projects
 [변경 기록]: https://spacy.io/usage#changelog
@@ -56,7 +56,7 @@ spaCy는 MIT 라이선스에 따라 출시된 상용 오픈 소스 소프트웨�
 
 spaCy 프로젝트는 **[@honnibal](https://github.com/honnibal)**,
 **[@ines](https://github.com/ines)**, **[@svlandeg](https://github.com/svlandeg)**,
-**[@adrianeboyd](https://github.com/adrianeboyd)** and **[@polm](https://github.com/polm)**에 의해 유지됩니다.
+**[@adrianeboyd](https://github.com/adrianeboyd)** and **[@polm]**(https://github.com/polm)**에 의해 유지됩니다.
 이메일을 통한 개별 지원은 제공할 수 없다는 점을 양해바랍니다.
 우리는 또한 더 많은 사람들이 도움을 받을 수 있도록 공개적으로 도움을 공유하는 것이 훨씬 더 가치 있다고 믿습니다.
 
