@@ -7,7 +7,7 @@ spaCy는 Python 및 Cython의 **향상된 자연어 처리**를 위한 라이브
 
 spaCy는 [사전에 학습된 파이프라인](https://spacy.io/models)과 함께 제공되며 현재 **60개 이상의 언어**에
 대한 토큰화 및 훈련을 지원합니다. 태그 지정, 구문 분석, **명명된 엔티티 인식**, **텍스트 분류**와 BERT와 같은 사전 훈련된 **변압기**를 통한 멀티태스킹 학습뿐만 아니라 
-생산 준비가 된 [**사전에 학습된 시스템**]**](https://spacy.io/usage/training)과 쉬운 모델 패키지, 배포 및 워크 플로우 관리를 위한 최첨단 속도와 **신경망 모델**이 특징입니다. 
+생산 준비가 된 [**사전에 학습된 시스템**](https://spacy.io/usage/training)과 쉬운 모델 패키지, 배포 및 워크 플로우 관리를 위한 최첨단 속도와 **신경망 모델**이 특징입니다. 
 spaCy는 MIT 라이선스에 따라 출시된 상용 오픈 소스 소프트웨어입니다.
 
 💫 **3.0 버젼 출시!**
@@ -30,14 +30,14 @@ spaCy는 MIT 라이선스에 따라 출시된 상용 오픈 소스 소프트웨�
 | -------------------------- | -------------------------------------------------------------- |
 | ⭐️ **[spaCy 101]**        | spaCy가 처음이신가요? 여기 알아야 할 모든게 있습니다!              |
 | 📚 **[사용법 가이드]**      | spaCy 사용법과 특징.                             |
-| 🚀 **[New in v3.0]**       | New features, backwards incompatibilities and migration guide. |
-| 🪐 **[Project Templates]** | End-to-end workflows you can clone, modify and run.            |
-| 🎛 **[API Reference]**      | The detailed reference for spaCy's API.                        |
-| 📦 **[Models]**            | Download trained pipelines for spaCy.                          |
-| 🌌 **[Universe]**          | Plugins, extensions, demos and books from the spaCy ecosystem. |
-| 👩‍🏫 **[Online Course]**     | Learn spaCy in this free and interactive online course.        |
-| 📺 **[Videos]**            | Our YouTube channel with video tutorials, talks and more.      |
-| 🛠 **[Changelog]**          | Changes and version history.                                   |
+| 🚀 **[새로워진 3.0 버젼]**       | 새로운 기능, 이전 버젼과의 비호환성 및 이송 가이드. |
+| 🪐 **[프로젝트 템플릿]** | 복사, 수정 및 실행할 수 있는 엔드 투 엔드 워크 플로우.            |
+| 🎛 **[API 참조]**      | spaCy's API에 대한 자세한 참조.                        |
+| 📦 **[모델]**            | spaCy용으로 훈련된 파이프라인 다운로드.                          |
+| 🌌 **[Universe]**          | spaCy 에코시스템의 플러그인, 확장, 데모 및 책. |
+| 👩‍🏫 **[온라인 강좌]**     | 무료 대화형 온라인 강좌에서 spaCy를 배우세요.        |
+| 📺 **[비디오]**            | 비디오 자습서, 대화 등이 포함된 YouTube 채널.      |
+| 🛠 **[변경 기록]**          | 변경 사항 및 버전 기록.                                   |
 | 💝 **[기여]**        | spaCy 프로젝트와 코드 베이스에 기여하는 방법.          |
 
 [spacy 101]: https://spacy.io/usage/spacy-101
@@ -47,48 +47,48 @@ spaCy는 MIT 라이선스에 따라 출시된 상용 오픈 소스 소프트웨�
 [모델]: https://spacy.io/models
 [universe]: https://spacy.io/universe
 [videos]: https://www.youtube.com/c/ExplosionAI
-[online course]: https://course.spacy.io
-[project templates]: https://github.com/explosion/projects
-[changelog]: https://spacy.io/usage#changelog
-[contribute]: https://github.com/explosion/spaCy/blob/master/CONTRIBUTING.md
+[온라인 강좌]: https://course.spacy.io
+[프로젝트 템플릿]: https://github.com/explosion/projects
+[변경 기록]: https://spacy.io/usage#changelog
+[기여]: https://github.com/explosion/spaCy/blob/master/CONTRIBUTING.md
 
-## 💬 Where to ask questions
+## 💬 문의할 곳
 
 spaCy 프로젝트는 **[@honnibal](https://github.com/honnibal)**,
 **[@ines](https://github.com/ines)**, **[@svlandeg](https://github.com/svlandeg)**,
-**[@adrianeboyd](https://github.com/adrianeboyd)** and **[@polm](https://github.com/polm)**에 의해 유지된다.
+**[@adrianeboyd](https://github.com/adrianeboyd)** and **[@polm](https://github.com/polm)**에 의해 유지됩니다.
 이메일을 통한 개별 지원은 제공할 수 없다는 점을 양해바랍니다.
-우리는 또한 더 많은 사람들이 도움을 받을 수 있도록 공개적으로 도움을 공유하는 것이 훨씬 더 가치 있다고 믿는다.
+우리는 또한 더 많은 사람들이 도움을 받을 수 있도록 공개적으로 도움을 공유하는 것이 훨씬 더 가치 있다고 믿습니다.
 
 | Type                            | Platforms                               |
 | ------------------------------- | --------------------------------------- |
-| 🚨 **Bug Reports**              | [GitHub Issue Tracker]                  |
-| 🎁 **Feature Requests & Ideas** | [GitHub Discussions]                    |
-| 👩‍💻 **Usage Questions**          | [GitHub Discussions] · [Stack Overflow] |
-| 🗯 **General Discussion**        | [GitHub Discussions]                    |
+| 🚨 **버그 제보**              | [GitHub Issue Tracker]                  |
+| 🎁 **기능 요청 & 아이디어** | [GitHub Discussions]                    |
+| 👩‍💻 **사용법 질문**          | [GitHub Discussions] · [Stack Overflow] |
+| 🗯 **일반적인 논의**        | [GitHub Discussions]                    |
 
 [github issue tracker]: https://github.com/explosion/spaCy/issues
 [github discussions]: https://github.com/explosion/spaCy/discussions
 [stack overflow]: https://stackoverflow.com/questions/tagged/spacy
 
-## Features
+## 특징
 
 - **60개 이상의 언어**를 지원.
-- **Trained pipelines** for different languages and tasks
-- Multi-task learning with pretrained **transformers** like BERT
-- Support for pretrained **word vectors** and embeddings
-- State-of-the-art speed
-- Production-ready **training system**
-- Linguistically-motivated **tokenization**
-- Components for named **entity recognition**, part-of-speech-tagging, dependency parsing, sentence segmentation, **text classification**, lemmatization, morphological analysis, entity linking and more
-- Easily extensible with **custom components** and attributes
-- Support for custom models in **PyTorch**, **TensorFlow** and other frameworks
-- Built in **visualizers** for syntax and NER
-- Easy **model packaging**, deployment and workflow management
-- Robust, rigorously evaluated accuracy
+- 다른 언어와 작업을 위해 **학습된 파이프라인** 
+- BERT와 같은 사전 훈련된 **변압기**
+- 사전 훈련된 **단어 벡터** 및 임베딩 지원
+- 최첨단 속도
+- 생산 준비가 된 **사전에 학습된 시스템**
+- 언어 기반 **토큰화**
+- 명명된 **엔티티 인식**, 품사 태깅, 종속성 구문 분석, 문장 분할, **텍스트 분류**, 표제어, 형태학적 분석, 엔티티 연결 등을 위한 구성 요소
+- **사용자 정의 구성 요소** 및 속성으로 쉽게 확장 가능
+- **PyTorch**, **TensorFlow**와 다른 프레임워크의 사용자 정의 모델 지원
+- 구문 및 NER을 위한 **비주얼라이저** 내장
+- 쉬운 **모델 패키징**, 배포 및 워크플로 관리
+- 견고하고 엄격하게 평가된 정확도
 
-📖 **For more details, see the
-[facts, figures and benchmarks](https://spacy.io/usage/facts-figures).**
+📖 **자세한 사항은 여기를 참고하세요
+[사실, 수치 및 벤치마크](https://spacy.io/usage/facts-figures).**
 
 ## ⏳ Install spaCy
 
