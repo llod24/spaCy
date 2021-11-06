@@ -1,41 +1,35 @@
 <a href="https://explosion.ai"><img src="https://explosion.ai/assets/img/logo.svg" width="125" height="125" align="right" /></a>
 
-# spaCy: Industrial-strength NLP
+# spaCy: 산업용 자연어처리
 
-spaCy is a library for **advanced Natural Language Processing** in Python and
-Cython. It's built on the very latest research, and was designed from day one to
-be used in real products.
+spaCy는 Python 및 Cython의 **향상된 자연어 처리**를 위한 라이브러리입니다.
+최신 연구를 기반으로 구축되었으며 처음부터 실제 제품에 사용되도록 설계되었습니다.
 
-spaCy comes with
-[pretrained pipelines](https://spacy.io/models) and
-currently supports tokenization and training for **60+ languages**. It features
-state-of-the-art speed and **neural network models** for tagging,
-parsing, **named entity recognition**, **text classification** and more,
-multi-task learning with pretrained **transformers** like BERT, as well as a
-production-ready [**training system**](https://spacy.io/usage/training) and easy
-model packaging, deployment and workflow management. spaCy is commercial
-open-source software, released under the MIT license.
+spaCy는 [사전에 학습된 파이프라인](https://spacy.io/models)과 함께 제공되며 현재 **60개 이상의 언어**에
+대한 토큰화 및 훈련을 지원합니다. 태그 지정, 구문 분석, **명명된 엔티티 인식**, **텍스트 분류**와 BERT와 같은 사전 훈련된 **변압기**를 통한 멀티태스킹 학습뿐만 아니라 
+생산 준비가 된 [**사전에 학습된 시스템**]**](https://spacy.io/usage/training)과 쉬운 모델 패키지, 배포 및 워크 플로우 관리를 위한 최첨단 속도와 **신경망 모델**이 특징입니다. 
+spaCy는 MIT 라이선스에 따라 출시된 상용 오픈 소스 소프트웨어입니다.
 
-💫 **Version 3.2 out now!**
-[Check out the release notes here.](https://github.com/explosion/spaCy/releases)
+💫 **3.0 버젼 출시!**
+[여기서 릴리스 노트를 확인하세요](https://github.com/explosion/spaCy/releases)
 
-[![Azure Pipelines](https://img.shields.io/azure-devops/build/explosion-ai/public/8/master.svg?logo=azure-pipelines&style=flat-square&label=build)](https://dev.azure.com/explosion-ai/public/_build?definitionId=8)
-[![Current Release Version](https://img.shields.io/github/release/explosion/spacy.svg?style=flat-square&logo=github)](https://github.com/explosion/spaCy/releases)
-[![pypi Version](https://img.shields.io/pypi/v/spacy.svg?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/spacy/)
-[![conda Version](https://img.shields.io/conda/vn/conda-forge/spacy.svg?style=flat-square&logo=conda-forge&logoColor=white)](https://anaconda.org/conda-forge/spacy)
+[![Azure 파이프라인](https://img.shields.io/azure-devops/build/explosion-ai/public/8/master.svg?logo=azure-pipelines&style=flat-square&label=build)](https://dev.azure.com/explosion-ai/public/_build?definitionId=8)
+[![최근 배포 버젼](https://img.shields.io/github/release/explosion/spacy.svg?style=flat-square&logo=github)](https://github.com/explosion/spaCy/releases)
+[![pypi 버젼](https://img.shields.io/pypi/v/spacy.svg?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/spacy/)
+[![conda 버젼](https://img.shields.io/conda/vn/conda-forge/spacy.svg?style=flat-square&logo=conda-forge&logoColor=white)](https://anaconda.org/conda-forge/spacy)
 [![Python wheels](https://img.shields.io/badge/wheels-%E2%9C%93-4c1.svg?longCache=true&style=flat-square&logo=python&logoColor=white)](https://github.com/explosion/wheelwright/releases)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/ambv/black)
+[![코드 스타일: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/ambv/black)
 <br />
-[![PyPi downloads](https://static.pepy.tech/personalized-badge/spacy?period=total&units=international_system&left_color=grey&right_color=orange&left_text=pip%20downloads)](https://pypi.org/project/spacy/)
-[![Conda downloads](https://img.shields.io/conda/dn/conda-forge/spacy?label=conda%20downloads)](https://anaconda.org/conda-forge/spacy)
-[![spaCy on Twitter](https://img.shields.io/twitter/follow/spacy_io.svg?style=social&label=Follow)](https://twitter.com/spacy_io)
+[![PyPi 다운로드](https://static.pepy.tech/personalized-badge/spacy?period=total&units=international_system&left_color=grey&right_color=orange&left_text=pip%20downloads)](https://pypi.org/project/spacy/)
+[![Conda 다운로드](https://img.shields.io/conda/dn/conda-forge/spacy?label=conda%20downloads)](https://anaconda.org/conda-forge/spacy)
+[![spaCy 트위터](https://img.shields.io/twitter/follow/spacy_io.svg?style=social&label=Follow)](https://twitter.com/spacy_io)
 
-## 📖 Documentation
+## 📖 문서
 
-| Documentation              |                                                                |
+| 문서              |                                                                |
 | -------------------------- | -------------------------------------------------------------- |
-| ⭐️ **[spaCy 101]**        | New to spaCy? Here's everything you need to know!              |
-| 📚 **[Usage Guides]**      | How to use spaCy and its features.                             |
+| ⭐️ **[spaCy 101]**        | spaCy가 처음이신가요? 여기 알아야 할 모든게 있습니다!              |
+| 📚 **[사용법 가이드]**      | spaCy 사용법과 특징.                             |
 | 🚀 **[New in v3.0]**       | New features, backwards incompatibilities and migration guide. |
 | 🪐 **[Project Templates]** | End-to-end workflows you can clone, modify and run.            |
 | 🎛 **[API Reference]**      | The detailed reference for spaCy's API.                        |
@@ -44,13 +38,13 @@ open-source software, released under the MIT license.
 | 👩‍🏫 **[Online Course]**     | Learn spaCy in this free and interactive online course.        |
 | 📺 **[Videos]**            | Our YouTube channel with video tutorials, talks and more.      |
 | 🛠 **[Changelog]**          | Changes and version history.                                   |
-| 💝 **[Contribute]**        | How to contribute to the spaCy project and code base.          |
+| 💝 **[기여]**        | spaCy 프로젝트와 코드 베이스에 기여하는 방법.          |
 
 [spacy 101]: https://spacy.io/usage/spacy-101
 [new in v3.0]: https://spacy.io/usage/v3
-[usage guides]: https://spacy.io/usage/
-[api reference]: https://spacy.io/api/
-[models]: https://spacy.io/models
+[사용법 가이드]: https://spacy.io/usage/
+[api 참조]: https://spacy.io/api/
+[모델]: https://spacy.io/models
 [universe]: https://spacy.io/universe
 [videos]: https://www.youtube.com/c/ExplosionAI
 [online course]: https://course.spacy.io
@@ -60,12 +54,11 @@ open-source software, released under the MIT license.
 
 ## 💬 Where to ask questions
 
-The spaCy project is maintained by **[@honnibal](https://github.com/honnibal)**,
+spaCy 프로젝트는 **[@honnibal](https://github.com/honnibal)**,
 **[@ines](https://github.com/ines)**, **[@svlandeg](https://github.com/svlandeg)**,
-**[@adrianeboyd](https://github.com/adrianeboyd)** and **[@polm](https://github.com/polm)**.
-Please understand that we won't be able to provide individual support via email.
-We also believe that help is much more valuable if it's shared publicly, so that
-more people can benefit from it.
+**[@adrianeboyd](https://github.com/adrianeboyd)** and **[@polm](https://github.com/polm)**에 의해 유지된다.
+이메일을 통한 개별 지원은 제공할 수 없다는 점을 양해바랍니다.
+우리는 또한 더 많은 사람들이 도움을 받을 수 있도록 공개적으로 도움을 공유하는 것이 훨씬 더 가치 있다고 믿는다.
 
 | Type                            | Platforms                               |
 | ------------------------------- | --------------------------------------- |
@@ -80,7 +73,7 @@ more people can benefit from it.
 
 ## Features
 
-- Support for **60+ languages**
+- **60개 이상의 언어**를 지원.
 - **Trained pipelines** for different languages and tasks
 - Multi-task learning with pretrained **transformers** like BERT
 - Support for pretrained **word vectors** and embeddings
